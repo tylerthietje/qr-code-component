@@ -1,0 +1,55 @@
+body {
+  box-sizing: border-box;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(212, 45%, 89%);
+  font-family: sans-serif;
+  height: 100vh;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.square {
+  background: url(/images/image-qr-code.png);
+  background-size: contain;
+  height: 275px;
+  width: 275px;
+  margin: 13px;
+  border-radius: 15px;
+}
+
+.content {
+  margin: 0 25px;
+}
+
+p {
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  position: absolute;
+  bottom: 0;
+  height: 20px;
+}
+
+@media (max-width: 375px) {
+  .card {
+    width: 300px;
+  }
+}
