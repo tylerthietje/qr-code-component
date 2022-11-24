@@ -27,7 +27,8 @@ body {
 
 .square {
   background-image: url(images/image-qr-code.png);
-  background-size: contain;
+  background-size: cover;
+  background-color: lightgray;
   height: 275px;
   width: 275px;
   margin: 13px;
